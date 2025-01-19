@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image';
 import React from 'react';
- import Link from 'next/Link';
+
 const HeroSection = () => {
   return (
     <section
@@ -29,11 +29,11 @@ const HeroSection = () => {
         {/* Button */}
 
 
-<Link href="/services"  >
+
   <button className="bg-[#9EFF00] mt-10 font-bold text-black px-6 py-3 rounded hover:bg-green-500">
     Our Services
   </button>
-</Link>
+
 
       </motion.div>
 
