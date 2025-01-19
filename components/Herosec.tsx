@@ -29,7 +29,7 @@ const HeroSection = () => {
         {/* Button */}
 
 
-<Link to="/services">
+<Link href="/services"  >
   <button className="bg-[#9EFF00] mt-10 font-bold text-black px-6 py-3 rounded hover:bg-green-500">
     Our Services
   </button>
