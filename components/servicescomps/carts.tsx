@@ -77,7 +77,7 @@ const ServicesPage: React.FC = () => {
                   <img src={service.image} alt={service.name} className="lg:w-[330px] h-auto rounded-lg" />
                   <div className="flex space-x-2 mt-4">
                     <div className="w-4 h-4 mt-[5px] bg-blue-500 rounded-full"></div>
-                    <h3 className="text-xl font-bold mb-2">{service.name}</h3>
+                    <h3 className="text-xl text-black-900 font-bold mb-2">{service.name}</h3>
                   </div>
                   <p className="text-gray-600 lg:h-[70px] mb-4">{service.description}</p>
                   <button className="flex items-center border border-black px-4 py-2 text-black font-semibold hover:bg-black hover:text-white rounded-md">
