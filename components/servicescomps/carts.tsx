@@ -40,7 +40,7 @@ const ServicesPage: React.FC = () => {
 
   return (
     <div className="bg-gradient-to-b from-black via-[#93b858e0] min-h-screen">
-      <div className="container lg:ml-[100px] mx-auto px-4 py-8">
+      <div className="container  justify-center items center mx-auto px-4 py-8">
         {servicesData.map((category) => (
           <motion.section
             key={category.title}
