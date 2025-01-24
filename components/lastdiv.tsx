@@ -2,7 +2,7 @@ import React from 'react';
 
 const LastDiv: React.FC = () => {
   return (
-    <section className="py-16 px-4 lg:ml-[20px] lg:px-[100px] flex flex-col lg:flex-row items-center justify-between ">
+    <section className="py-16 px-4  lg:px-[100px] lg:ml-[20px] flex flex-col lg:flex-row items-center justify-between ">
       {/* Left Side Content */}
       <div className="text-white text-center lg:text-left mb-6 lg:mb-0">
         <h2 className="text-3xl lg:text-4xl font-bold">
